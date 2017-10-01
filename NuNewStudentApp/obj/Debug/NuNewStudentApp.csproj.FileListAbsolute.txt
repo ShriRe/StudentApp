@@ -1,0 +1,6 @@
+D:\NuCollgeApp\NuNewStudentApp\NuNewStudentApp\bin\Debug\NuNewStudentApp.exe.config
+D:\NuCollgeApp\NuNewStudentApp\NuNewStudentApp\bin\Debug\NuNewStudentApp.exe
+D:\NuCollgeApp\NuNewStudentApp\NuNewStudentApp\bin\Debug\NuNewStudentApp.pdb
+D:\NuCollgeApp\NuNewStudentApp\NuNewStudentApp\obj\Debug\NuNewStudentApp.csprojResolveAssemblyReference.cache
+D:\NuCollgeApp\NuNewStudentApp\NuNewStudentApp\obj\Debug\NuNewStudentApp.exe
+D:\NuCollgeApp\NuNewStudentApp\NuNewStudentApp\obj\Debug\NuNewStudentApp.pdb
