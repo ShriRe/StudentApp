@@ -8,11 +8,11 @@ namespace NuNewStudentApp
 {
     class Program
     {
-#region Methods
+#region Main Methods
         static void Main(string[] args)
         {
            
-            var student = new AddStudent();
+            var student = new Student();
            // student.StudentId = 000599086;
             student.EmailAddress = "shreerekha.dodla16@northwestu.edu";
             //student.GradGPA = 3.0;
@@ -22,7 +22,7 @@ namespace NuNewStudentApp
 
             Console.WriteLine($"SID : {student.StudentId}) ,EA: {student.EmailAddress} , GPA : {student.GradGPA} ,ST :{student.StudentType} ");
 
-            var student2 = new AddStudent();
+            var student2 = new Student();
 
             Console.WriteLine($"SID : {student2.StudentId}) ,EA: {student2.EmailAddress} , GPA : {student2.GradGPA} ,ST :{student2.StudentType} ");
             #endregion

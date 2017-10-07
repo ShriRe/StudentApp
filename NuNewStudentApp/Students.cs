@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace NuNewStudentApp
 {
-    #region Methods
+    
     class Students
     {
-        public AddStudent createStudent(string emailAddress, StudentType )
+  #region Methods
+      //  public Student createStudent(string emailAddress, StudentType )
   
 
 

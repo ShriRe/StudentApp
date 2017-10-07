@@ -18,14 +18,11 @@ namespace NuNewStudentApp
     /// <summary>
     /// This is Add new student application 
     /// </summary>
-   public class AddStudent
+   public class Student
     {
         private static int LastStudentId = 0;
-  
 
-
-
-#region Properties
+         #region Properties
         /// <summary>
         /// This holds the New Student Application ID
         /// </summary>
@@ -46,21 +43,34 @@ namespace NuNewStudentApp
         /// This holds the new student application created date
         /// </summary>
         public DateTime CreatedDate { get; set; }
-        #endregion
+        /// <summary>
+        /// This holds the new student Phone number
+        /// </summary>
+        public int PhoneNumber { get; set; }
+        /// <summary>
+        /// This holds May we text you
+        /// </summary>
+        public Boolean SendAlert { get; set; }
+        /// <summary>
+        /// This holds birthdate
+        /// </summary>
+        public DateTime BirthDate { get; set; }
+
+ #endregion
 
         #region constructor
 
-        public AddStudent ()
+        public Student ()
         {
             StudentId = ++LastStudentId;
         }
 
 #endregion
 
-        #region Methods
+#region Methods
         public decimal GPA (decimal criteria)
         {
-            GradGPA += criteria; //take my existing GPA and add 
+            GradGPA += criteria; //take my existing GPA and add then accept student 
             return GradGPA;
         }
         /// <summary>
